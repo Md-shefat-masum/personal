@@ -1,0 +1,25 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "A Starter Template for Quick Start",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emranweb",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
+    "gulp-sass": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emranweb/start.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emranweb/start/issues"
+  },
+  "homepage": "https://github.com/emranweb/start"
+}

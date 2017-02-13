@@ -1,0 +1,46 @@
+/***********about********************/
+#about_me {
+	padding-top: 100px;
+	height: 100%;
+	position: relative;
+
+	.about_content {
+		h4 {
+			font-weight: 700;
+			text-transform: inherit;
+			font-size: 1.4rem;
+			padding-top: 2rem;
+		}
+
+		p {
+			font-weight: 400px;
+			padding: 1rem 0;
+		}
+	}
+
+	.btn {
+		text-align: center;
+		border-radius: 0;
+		width: 150px;
+		background-color: #ff2b4a;
+		outline: none;
+		border-color: #fff;
+		margin-left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		clear: both;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+
+		&:hover {
+			span {
+				margin-left: 10px;
+			}
+		}
+
+		span {
+			margin-left: 5px;
+			transition: all 1s ease;
+		}
+	}
+}
